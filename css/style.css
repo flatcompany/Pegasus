@@ -821,7 +821,7 @@ button:focus {
         width: 100%;
         margin-top: 20px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .number {
@@ -855,6 +855,37 @@ button:focus {
 
     .header__logo img {
         width: 200px;
+    }
+
+}
+
+
+@media (max-width: 321px) {
+
+    .footer__buttons button {
+        font-size: 9px;
+        padding: 2px 2px;
+        
+    }
+
+    .footer__buttons button:first-child {
+        margin-bottom: 25px;
+    }
+
+    .footer__number {
+        font-size: 9px;
+    }
+
+    .footer__text {
+        font-size: 7px;
+    }
+
+    .footer__icons {
+        font-size: 20px;
+    }
+
+    .footer__text-discription {
+        font-size: 12px;
     }
 
 }
