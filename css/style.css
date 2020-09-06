@@ -394,7 +394,7 @@ button:focus {
 .footer__bg {
     width: 100%;
     /* max-height: 338px; */
-    background: url(/img/footerxx.png);
+    background: url(img/footerxx.png);
     background-size: cover;
     padding: 39px 15px 30px 15px;
 }
